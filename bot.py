@@ -1,11 +1,12 @@
 import telebot
 from telebot import types
 from SQLighter import SQLighter
-from config import token, database_name
+from config import token
 from verb_search import possible_answer
 
 
 bot = telebot.TeleBot(token)
+database_name = 'verben.db'
 
 welcome_text = """
 Приветствую, я бот для склонения немецких сильных глаголов.
