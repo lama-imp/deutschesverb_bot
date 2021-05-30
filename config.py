@@ -1,0 +1,36 @@
+token = 'bot token'
+database_name = 'verben.db'
+
+VERBEN = [
+    'bleiben', 'gedeihen', 'leihen', 'meiden', 'preisen', 'reiben', 'reihen',
+    'scheiden', 'scheinen', 'schneen', 'schneien', 'schreiben', 'schreien',
+    'schweigen', 'speien', 'speisen', 'steigen', 'treiben', 'weisen', 'zeihen',
+    'beißen', 'bleichen', 'gleichen', 'gleiten', 'greifen', 'keifen',
+    'kneifen', 'kneipen', 'kreißen', 'kröschen', 'kreischen', 'leiden',
+    'pfeifen', 'reißen', 'reiten', 'scheißen', 'schleichen', 'schleifen',
+    'schleißen', 'schmeißen', 'schneiden', 'schreiten', 'spleißen',
+    'streichen', 'streiten', 'weichen', 'biegen', 'bieten', 'fliegen',
+    'fliehen', 'frieren', 'klieben', 'kiesen', 'verlieren', 'lügen',
+    'schieben', 'stieben', 'trügen', 'ziehen', 'verdrießen', 'fließen',
+    'gießen', 'kriechen', 'krauchen', 'genießen', 'riechen', 'saufen',
+    'saugen', 'schießen', 'schließen', 'schnauben', 'sieden', 'sprießen',
+    'triefen', 'binden', 'brinnen', 'dingen', 'dringen', 'finden', 'klingen',
+    'gelingen', 'ringen', 'schinden', 'schlingen', 'schwinden', 'schwingen',
+    'singen', 'sinken', 'springen', 'stinken', 'trinken', 'winden', 'winken',
+    'wringen', 'zwingen', 'bellen', 'bergen', 'bersten', 'verderben',
+    'dreschen', 'fechten', 'flechten', 'gelten', 'beginnen', 'glimmen',
+    'helfen', 'klimmen', 'löschen', 'melken', 'quillen', 'quellen', 'rinnen',
+    'schallen', 'zerschellen', 'schelten', 'schmelzen', 'schwellen',
+    'schwimmen', 'sinnen', 'spinnen', 'sterben', 'werben', 'werden',
+    'werfen', 'gewinnen', 'gebären', 'brechen', 'befehlen', 'empfehlen',
+    'empfehlen', 'kommen', 'nehmen', 'schrecken', 'schröcken', 'sprechen',
+    'stechen', 'stecken', 'stehlen', 'treffen', 'gären', 'verhehlen', 'tun',
+    'scheren', 'schwären', 'wägen', 'weben', 'bewegen', 'bitten', 'essen',
+    'fressen', 'geben', 'vergessen', 'lesen', 'liegen', 'messen', 'genesen',
+    'geschehen', 'sein', 'sehen', 'sitzen', 'treten', 'backen', 'fahren',
+    'fragen', 'graben', 'heben', 'laden', 'schaffen', 'schlagen', 'schwören',
+    'stehen', 'tragen', 'wachsen', 'waschen', 'heischen', 'eischen',
+    'heuschen', 'heißen', 'gehen', 'hauen', 'laufen', 'stoßen', 'fallen',
+    'fangen', 'halten', 'hängen', 'hangen', 'lassen', 'salzen', 'schalten',
+    'spalten', 'rufen', 'blasen', 'braten', 'mahlen', 'raten', 'schlafen'
+]
