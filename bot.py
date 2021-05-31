@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
 from SQLighter import SQLighter
-from config import token
-from verb_search import possible_answer, database_name
+from config import token, database_name
+from verb_search import possible_answer
 
 
 bot = telebot.TeleBot(token)
