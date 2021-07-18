@@ -1,4 +1,3 @@
-token = 'bot token'
 database_name = 'verben.db'
 
 VERBEN = [
