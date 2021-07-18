@@ -42,12 +42,14 @@ def send_manual(message):
 
 @bot.message_handler(content_types=["text"])
 def return_verb(message):
+    with open('log.txt', 'a') as logfile:
+        logfile.write('{} | {} | {}\n'.format(
+            message.date, message.from_user.username, message.text))
     db_worker = SQLighter(database_name)
     search_result = db_worker.find_verb(message.text.lower())
     if search_result is not None:
         markup = types.ReplyKeyboardRemove()
         answer = db_worker.give_answer(message.text.lower())
-        print(answer)
         db_worker.close
         result = answer[1:]
         for i in result:
