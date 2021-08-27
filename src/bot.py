@@ -50,7 +50,7 @@ def return_verb(message):
     if search_result is not None:
         markup = types.ReplyKeyboardRemove()
         answer = db_worker.give_answer(message.text.lower())
-        db_worker.close
+        db_worker.close()
         result = answer[1:]
         for i in result:
             bot.send_message(message.chat.id, i, reply_markup=markup)
